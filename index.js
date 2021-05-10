@@ -35,6 +35,8 @@ container.append(table)
 var arr= []
 for(var i=0;i<10;i++){
     var button = document.createElement('button')
+    button.setAttribute('class', 'btn btn-primary')
+    button.style.marginRight = "5px"
     button.type='button'
     button.innerHTML = i+1
     arr.push(button)
@@ -42,14 +44,20 @@ for(var i=0;i<10;i++){
     
 }
 var button_First = document.createElement('button')
+    button_First.setAttribute('class','btn btn-primary')
+    button_First.style.marginRight = "5px"
     button_First.type='button'
     button_First.innerHTML = "First"
     arr.push(button_First)
 var button_Last = document.createElement('button')
+    button_Last.setAttribute('class','btn btn-primary')
+    button_Last.style.marginRight = "5px"
     button_Last.type='button'
     button_Last.innerHTML = 'Last'
     arr.push(button_Last)
 var button_Prev = document.createElement('button')
+    button_Prev.setAttribute('class','btn btn-primary')
+    button_Prev.style.marginRight = "5px"
     button_Prev.type='button'
     button_Prev.innerHTML = 'Prev'
     arr.push(button_Prev)
