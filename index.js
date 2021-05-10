@@ -105,6 +105,7 @@ arr.forEach(ele => {
         }
         if(ele.innerHTML === 'Last'){
             display(last)
+            temp.push('10')
         }
     } 
 })
