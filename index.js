@@ -56,8 +56,8 @@ var button_Last = document.createElement('button')
     button_Last.innerHTML = 'Last'
     arr.push(button_Last)
 var button_Prev = document.createElement('button')
-    button_Prev.setAttribute('class','btn btn-primary')
-    button_Prev.style.marginRight = "3px"
+//     button_Prev.setAttribute('class','btn btn-primary')
+//     button_Prev.style.marginRight = "3px"
     button_Prev.type='button'
     button_Prev.innerHTML = 'Prev'
     arr.push(button_Prev)
